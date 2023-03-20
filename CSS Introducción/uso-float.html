@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Uso Float</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: Arial;
+        }
+
+        .main{
+            background: green;
+            width: 90%;
+            margin: auto;
+            padding: 10px;
+            overflow: hidden;
+        }
+        .caja{
+            width: 500px;
+            height: 200px;
+            margin: 20px;
+        }
+        .img{
+            float: left;
+            width: auto;
+        }
+
+        .text{
+            float: left;
+        }
+
+        /* Estilos para articulos */
+        .articulo{
+            background: lightblue;
+            width: 500px;
+            margin: auto;
+            padding: 10px;
+        }
+        .articulo h2{
+            padding: 10px;
+            text-align: center;
+        }
+        .articulo img{
+            float: right;
+        }
+
+    </style>
+</head>
+<body>
+    <main class="main"> 
+        <div class="caja img">
+            <img src="https://loremflickr.com/g/320/240/paris" alt="imagen" height="200">
+        </div>
+        <div class="caja text">
+            <h2>Soy un emcabezado</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo sunt odit accusamus, facilis magnam veritatis. Hic, blanditiis aperiam! Expedita molestiae voluptatem ipsam tempora sit autem ducimus facilis iure minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus tenetur fuga nisi quo dolorem laboriosam, placeat unde tempora accusantium, hic iure corrupti eaque libero, molestiae cupiditate odit incidunt illo.</p>
+        </div>
+    </main>
+    <article class="articulo">
+        <h2>Encabezado de Articulo</h2>
+        <img src="https://loremflickr.com/g/320/240/paris" alt="imagen" width="200">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo sunt odit accusamus, facilis magnam veritatis. Hic, blanditiis aperiam! Expedita molestiae voluptatem ipsam tempora sit autem ducimus facilis iure minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus tenetur fuga nisi quo dolorem laboriosam, placeat unde tempora accusantium, hic iure corrupti eaque libero, molestiae cupiditate odit incidunt illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo sunt odit accusamus, facilis magnam veritatis. Hic, blanditiis aperiam! Expedita molestiae voluptatem ipsam tempora sit autem ducimus facilis iure minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus tenetur fuga nisi quo dolorem laboriosam, placeat unde tempora accusantium, hic iure corrupti eaque libero, molestiae cupiditate odit incidunt illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo sunt odit accusamus, facilis magnam veritatis. Hic, blanditiis aperiam! Expedita molestiae voluptatem ipsam tempora sit autem ducimus facilis iure minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus tenetur fuga nisi quo dolorem laboriosam, placeat unde tempora accusantium, hic iure corrupti eaque libero, molestiae cupiditate odit incidunt illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero quo sunt odit accusamus, facilis magnam veritatis. Hic, blanditiis aperiam! Expedita molestiae voluptatem ipsam tempora sit autem ducimus facilis iure minima Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus tenetur fuga nisi quo dolorem laboriosam, placeat unde tempora accusantium, hic iure corrupti eaque libero, molestiae cupiditate odit incidunt illo.</p>
+    </article>
+</body>
+</html>
